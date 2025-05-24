@@ -1,0 +1,12 @@
+#!/bin/bash
+
+cd /home/Desktop/DSA/dsa-journey|| exit
+
+# Add new files
+git add .
+
+# Commit with today's date
+git commit -m "Daily DSA solutions: $(date '+%Y-%m-%d')"
+
+# Push to main (or change to your branch name)
+git push origin main
